@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+
+                <img class="header__img" src="images/book.png" alt="">
+
+                <nav class="header__nav">
+                    <ul class="header__list">
+                        <li class="header__item">
+                            <a href="#" class="header__link">Главная</a>
+                        </li>
+                        <li class="header__item">
+                            <a href="#" class="header__link">Фильмы</a>
+                        </li>
+                        <li class="header__item">
+                            <a href="#" class="header__link">Книги</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="offer__action">
+                    <button data-modal class="btn">написать</button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+
+    <section class="top">
+        <div class="container">
+            <div class="top__wrapper">
+                <div class="top__inner">
+                    <div class="top__bg">
+                        <div class="top__tabcontent">
+                            <img src="images/witcher.jpeg" alt="">
+                            <div class="top__genre">Анджей Сапковский</div>
+                            <div class="top__name">
+                                <span>«Сага о ведьмаке»</span>
+                            </div>
+                            <div class="top__descr">
+                                Главным героем серии является Геральт из Ривии, ведьмак — наёмник, выполняющий заказы,
+                                связанные с уничтожением бестий, представляющих угрозу для жизни людей.Основная работа
+                                Геральта — за деньги уничтожать опасных чудовищ.
+                            </div>
+                        </div>
+
+                        <div class="top__tabcontent">
+                            <img src="images/roman.jpg" alt="">
+                            <div class="top__descr">
+                                Очнувшись после взрыва в нью-йоркском Метрополитен-музее, тринадцатилетний Тео Декер
+                                получает от умирающего старика кольцо и редкую картину авторства Карела Фабрициуса с
+                                наказом вынести их из музея.
+                            </div>
+                        </div>
+
+                        <div class="top__tabcontent">
+                            <img src="images/investment.jpg" alt="">
+                            <div class="top__genre">Миллер Джереми</div>
+                            <div class="top__name">
+                                Правила инвестирования <br>
+                                <span>Уоррена Баффетта </span>
+                            </div>
+                            <div class="top__descr">
+                                Инвестиционного гуру Уоррена Баффетта многие называют "провидцем". Сам Баффетт говорит,
+                                что предсказывать поведение рынка бессмысленно и только терпение, бережливость и
+                                верность принципам помогут достичь долговременного успеха.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="top__tabs">
+                        <h3 class="top__tab-title">Вырберите жанр</h3>
+                        <div class="top__tab-items">
+                            <div class="top__tab-item">Фэнтези</div>
+                            <div class="top__tab-item">Романы</div>
+                            <div class="top__tab-item top__tab-item--active">Инвестиции</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="film">
+        <div class="film__bg"></div>
+        <h1 class="film__title">Лучшие фильмы по версии <br> <span>пользователей IMDb</span></h1>
+        <div class="container">
+            <div class="film__wrapper">
+
+                <div class="film__slider-counter">
+                    <div class="film__slider-prev">
+                        <img class="film__slider-icon" src="images/slider/arrow-left.svg" alt="prev">
+                    </div>
+                    <span id="current"></span>
+
+                    <span id="total"></span>
+                    <div class="film__slider-next">
+                        <img class="film__slider-icon" src="images/slider/arrow-right.svg" alt="next">
+                    </div>
+                </div>
+
+                <div class="item__slider">
+                    <div class="item__slider-inner">
+
+                        <div class="film__item">
+                            <div class="film__item-bg"></div>
+                            <div class="film__item-left">
+                                <h2 class="film__item-title">Побег из Шоушенка</h2>
+                                <p class="film__item-descr">
+                                    Бухгалтер Энди Дюфрейн обвинён в убийстве собственной жены и её любовника.
+                                    Оказавшись в
+                                    тюрьме под названием Шоушенк, он сталкивается с жестокостью и беззаконием, царящими
+                                    по
+                                    обе
+                                    стороны решётки. Каждый, кто попадает в эти стены, становится их рабом до конца
+                                    жизни.
+                                    Но
+                                    Энди, обладающий живым умом и доброй душой, находит подход как к заключённым, так и
+                                    к
+                                    охранникам, добиваясь их особого к себе расположения.
+                                </p>
+                                <div class="film__item-imdb">IMDb: 9.30</div>
+                            </div>
+                            <div class="film__item-right">
+                                <img class="film__item-img" src="images/slider/film1.PNG" alt="">
+                            </div>
+                        </div>
+
+                        <div class="film__item">
+                            <div class="film__item-bg"></div>
+                            <div class="film__item-left">
+                                <h2 class="film__item-title">Крестный отец</h2>
+                                <p class="film__item-descr">
+                                    Глава семьи, Дон Вито Корлеоне, выдаёт замуж свою дочь. В это время со Второй
+                                    мировой
+                                    войны возвращается его любимый сын Майкл. Майкл, герой войны, гордость семьи, не
+                                    выражает желания заняться жестоким семейным бизнесом. Дон Корлеоне ведёт дела по
+                                    старым
+                                    правилам, но наступают иные времена, и появляются люди, желающие изменить
+                                    сложившиеся
+                                    порядки. На Дона Корлеоне совершается покушение.
+                                </p>
+                                <div class="film__item-imdb">IMDb: 9.20</div>
+                            </div>
+                            <div class="film__item-right">
+                                <img class="film__item-img" src="images/slider//film2.jpg" alt="">
+                            </div>
+                        </div>
+
+                        <div class="film__item">
+                            <div class="film__item-bg"></div>
+                            <div class="film__item-left">
+                                <h2 class="film__item-title">Темный рыцарь</h2>
+                                <p class="film__item-descr">
+                                    Бэтмен поднимает ставки в войне с криминалом. С помощью лейтенанта Джима Гордона и
+                                    прокурора Харви Дента он намерен очистить улицы Готэма от преступности.
+                                    Сотрудничество
+                                    оказывается эффективным, но скоро они обнаружат себя посреди хаоса, развязанного
+                                    восходящим криминальным гением, известным напуганным горожанам под именем Джокер.
+                                </p>
+                                <div class="film__item-imdb">IMDb: 9.00</div>
+                            </div>
+                            <div class="film__item-right">
+                                <img class="film__item-img" src="images/slider/film3.jpg" alt="">
+                            </div>
+                        </div>
+
+                        <div class="film__item">
+                            <div class="film__item-bg"></div>
+                            <div class="film__item-left">
+                                <h2 class="film__item-title">Властелин колец: Возвращение Короля</h2>
+                                <p class="film__item-descr">
+                                    Повелитель сил тьмы Саурон направляет свою бесчисленную армию под стены
+                                    Минас-Тирита,
+                                    крепости Последней Надежды. Он предвкушает близкую победу, но именно это мешает ему
+                                    заметить две крохотные фигурки — хоббитов, приближающихся к Роковой Горе, где им
+                                    предстоит уничтожить Кольцо Всевластия.
+                                </p>
+                                <div class="film__item-imdb">IMDb: 8.90</div>
+
+                            </div>
+                            <div class="film__item-right">
+                                <img class="film__item-img" src="images/slider/film4.jpg" alt="">
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="divider__bot"></div>
+
+    <section class="bot">
+        <img class="bot__img-header" src="images/knowledge.svg" alt="">
+        <div class="bot__bg"></div>
+        <div class="bot__bg-right"></div>
+        <img src="images/open-book.svg" class="bot__img-icon" alt="">
+        <div class="container">
+            <div class="bot__present">
+                <div class="bot__present-inner">
+                    <img src="images/kingsman.jpg" alt="" class="bot__img">
+                    <div class="bot__present-descr">
+                        <h3>Kingsman. Красный алмаз</h3>
+                        <p class="bot__descr">
+                            Сиквел полюбившегося критикам комикса Марка Миллара и Дэйва Гиббонса "Kingsman. Секретная
+                            служба",
+                            набитый приключениями до отказа. Эггси вернулся. Ему приказано спасти принца Филиппа и
+                            раскрыть
+                            международный террористический заговор, а заодно доказать, что он — настоящий агент
+                            Kingsman...
+                            и
+                            спасти мир.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bot__timer">
+                <div class="bot__title">Осталось до выхода:</div>
+                <div class="bot__timer-items">
+                    <div class="bot__timer__block">
+                        <span id="days">12</span>
+                        дней
+                    </div>
+                    <div class="bot__timer__block">
+                        <span id="hours">20</span>
+                        часов
+                    </div>
+                    <div class="bot__timer__block">
+                        <span id="minutes">56</span>
+                        минут
+                    </div>
+                    <div class="bot__timer__block">
+                        <span id="seconds">20</span>
+                        секунд
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="divider"></div>
+
+
+    <section class="list">
+        <img class="list__img" src="images/knowledge.svg" alt="">
+        <h3 class="list__title">Книги, которые стоит прочитать!</h3>
+
+        <div class="list__field">
+            <div class="container">
+
+            </div>
+        </div>
+    </section>
+
+
+    <section class="calculator">
+        <div class="divider"></div>
+        <div class="calculator__rectangle"></div>
+        <img src="images/knowledge.svg" class="calculator__icon" alt="">
+        <div class="container">
+            <div class="calculator__inner">
+                <h2 class="calculator__tilte">Расчитаем сколько вы можете прочитать книг за год?</h2>
+
+                <div class="calculator__descr-title">
+                    Введите количество страниц, сколько вы прочитываете в день.
+                </div>
+
+                <div class="calculator__input calculator__choose_medium">
+                    <input type="number" id="pages" placeholder="Введите количество страниц"
+                        class="calculator__choose-item">
+                </div>
+                <!-- <button class="calculator__btn">Расчитать</button> -->
+                <div class="calculator__divider"></div>
+                <div class="calculator__total">
+                    <div class="calculating__subtitle">
+                        В год вы можете прочитать книг:
+                    </div>
+                    <div class="calculating__result">
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__social">
+                <div class="subtitle">Я в социальных сетях:</div>
+                <a href="https://vk.com/nikolayjeskii" target="_blank">
+                    <img src="images/vk.svg" alt="">
+                </a>
+                <a href="https://www.instagram.com/zeusti/" target="_blank">
+                    <img src="images/instagram.svg" alt="">
+                </a>
+            </div>
+            <div class="footer__icon">
+                <img src="images/library.png" alt="">
+            </div>
+            <div class="footer__descr">
+                <img class="footer__descr-img" src="images/potter.svg" alt="">
+                <div class="footer__desct-text">
+                    <p>«Молодым никогда не понять, что чувствуют старики на самом деле. Но старики останутся виноватыми,
+                        если забудут, что это значит – быть молодым»</p>
+                    <span>Джоан Роулинг, «Кубок Огня»</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="modal">
+        <div class="modal__dialog">
+            <div class="modal__content">
+                <form action="#">
+                    <div data-close class="modal__close">&times;</div>
+                    <div class="modal__title">Напиши мне</div>
+                    <input required placeholder="Твое имя" name="name" type="text" class="modal__input">
+                    <input required placeholder="Имя почты" name="email" type="email" class="modal__input">
+                    <textarea required name="text" id="#" placeholder="Пиши..." class="modal__textarea"></textarea>
+                    <button class="btn">Отправить</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/bundle.js"></script>
+</body>
+
+</html>
